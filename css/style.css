@@ -1,0 +1,46 @@
+* {
+    font-family: 'Indie Flower', cursive;
+}
+
+body {
+    margin: 0;
+}
+
+div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    height: 50vh;
+    padding-right: 3vh;
+}
+
+div.scrollmenu div.card {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 3vh 0vh 3vh 3vh;
+}
+
+img {
+    width: 40vh;
+}
+
+header,
+footer {
+    height: 25vh;
+}
+
+h1 {
+    margin: 0;
+}
+
+.button {
+    width: 10%;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
